@@ -5,6 +5,7 @@ export LANG=C
 
 clean:
 	rm -rf dist
+	rm -rf lazy_rpc.egg-info
 
 output-requirements:
 	pipenv lock -r -d > requirements-dev.txt
